@@ -18,3 +18,4 @@ De login functionaliteit is gebruikt in __https://www.kwestievanhouding.nl__. He
 
 1. Clone of download de files.
 1. In de file js/login.js
+test
