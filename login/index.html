@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>Loginpagina</title>
+            <!-- Include CSS  -->
+            <link rel="stylesheet" type="text/css" href="css/StyleLoginRegister.css">
+            <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+            <!-- Include JS File Here -->
+            <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+            <script type="text/javascript" src="js/Login.js"></script>
+            <link rel="icon" href="img/favicon.png" type="image/x-icon"/>
+        </head>
+
+    <body onload="checkLoggedIn();">
+        <div id="container">
+            <div id="header">
+                <h1>login functionaliteit</h1>
+            </div>
+            <div id="loginContainer">
+                <div id="loginInputAndButton">
+                    <div id="inputField">
+                        <div class="inputDiv">
+                            <label class="nameLabel"><h3>Email</h3></label>
+                            <input type="text" placeholder="Uw email..." id="email" name="email" class="inputBar" required>
+                        </div>
+                        <div class="inputDiv">
+                            <label class="nameLabel"><h3>Wachtwoord</h3></label>
+                            <input type="password" placeholder="Uw wachtwoord..." id="password" name="Wachtwoord" class="inputBar" required>
+                        </div>
+                        <div id="registrationLabel" onclick="openRegisterPage();">Registreren</div>
+
+                        <div id="devider">|</div>
+                        <div id="forgottenLabel" onclick="openPasswordForgottenPage();">Wachtwoord vergeten</div>
+                    </div>
+                    <div id="buttonField">
+                        <button type="button" id="loginButton" onmousedown="login(event);">Login</button>
+                    </div>
+                </div>
+                <div id="insertValidResult"></div>
+                <div id="spinner"></div>
+            </div>
+        </div>
+    </body>
+</html>

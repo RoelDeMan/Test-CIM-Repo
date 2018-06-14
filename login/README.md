@@ -1,6 +1,6 @@
 # Login functionaliteit
 
-De login functionaliteit is gebruikt in https://www.kwestievanhouding.nl. Het is gemaakt in:
+De login functionaliteit is gebruikt in __https://www.kwestievanhouding.nl__. Het is gemaakt in:
 
 
 ### Front-end
@@ -14,6 +14,7 @@ De login functionaliteit is gebruikt in https://www.kwestievanhouding.nl. Het is
 - MySQL
 
 
-# Installatie
+# Te gebruiken
 
-Om het installeren...
+1. Clone of download de files.
+1. In de file js/login.js
