@@ -1,13 +1,19 @@
 # Login functionaliteit
 
-Dit is een login functionaliteit. Het is gemaakt in:
+De login functionaliteit is gebruikt in __https://www.kwestievanhouding.nl__. Het is gemaakt in:
 
 
-##Front-end
+## Front-end
 - HTML
 - CSS
-- JAVASCRIPT
-- JQuery 
+- Javascript
+- JQuery
 
-##Back-end
+## Back-end
 - PHP
+- MySQL
+
+
+# Installatie
+
+Om het installeren...
