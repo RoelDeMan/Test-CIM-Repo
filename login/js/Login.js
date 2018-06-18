@@ -26,7 +26,7 @@ var noEmail = 'Er is geen email ingevoerd';
 
 
 //Error or Confirm colors
-var falsColor = '#FF7888';
+var falseColor = '#FF7888';
 var standardResetColor = '#CCC';
 var trueColor = '#1387B9';
 

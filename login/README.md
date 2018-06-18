@@ -7,15 +7,8 @@ De login functionaliteit is gebruikt in __https://www.kwestievanhouding.nl__. He
 - HTML
 - CSS
 - Javascript
-- JQuery
+- JQuery (AJAX Call)
 
 ### Back-end
 - PHP
 - MySQL
-
-
-# Te gebruiken
-
-1. Clone of download de files.
-1. In de file js/login.js
-test
